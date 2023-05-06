@@ -4,7 +4,7 @@ FROM quay.io/redhattraining/httpd-parent
 EXPOSE 8080
 
 LABEL io.k8s.description="Child container images, uses ONBUILD" \
-      io.k8s.display-name="do288-apache-child" \
+      io.k8s.display-name="do288-apache-child-edit" \
       io.openshift.expose-services="8080:HTTP" \
       io.openshift.tags="apache"
 
